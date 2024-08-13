@@ -8,9 +8,9 @@ pipeline {
   environment {
     WORKSPACE = "${env.WORKSPACE}"
     NEXUS_CREDENTIAL_ID = 'Nexus-Credential'
-    //NEXUS_USER = "$NEXUS_CREDS_USR"
-    //NEXUS_PASSWORD = "$Nexus-Token"
-    //NEXUS_URL = "172.31.18.62:8081"
+    //NEXUS_USER = "admin"
+    //NEXUS_PASSWORD = "admin"
+    //NEXUS_URL = "http://18.141.239.171:8081"
     //NEXUS_REPOSITORY = "maven_project"
     //NEXUS_REPO_ID    = "maven_project"
     //ARTVERSION = "${env.BUILD_ID}"
